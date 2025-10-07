@@ -1,16 +1,32 @@
-# eco_gain
+# 💰 Eco Gain
 
-A new Flutter project.
+A Flutter app that helps you make smarter purchasing decisions by visualizing how many work hours each purchase costs. Enter a price, see the real work value, track your decisions, and monitor your savings over time.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+**Prerequisites:** Flutter SDK 3.9.2 or higher
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+# Clone and setup
+git clone https://github.com/MaximeLeBesnerais/eco_gain.git
+cd eco_gain
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Run
+flutter run
+
+# Build for production
+flutter build apk --release           # Android
+flutter build ios --release           # iOS
+flutter build web --release           # Web
+flutter build windows --release       # Windows
+flutter build macos --release         # macOS
+flutter build linux --release         # Linux
+```
+
+## 📄 License
+
+MIT License - Copyright (c) 2025 Maxime Le Besnerais
+
+See [LICENSE](LICENSE) file for details.
